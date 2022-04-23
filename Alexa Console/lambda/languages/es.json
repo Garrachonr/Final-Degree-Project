@@ -1,0 +1,41 @@
+{
+    "LANGUAGE": [
+        "es"
+        ],
+    "FACTS": [
+        "dato"
+        ],
+    "FIRST_TIME_USER": [
+        "Bienvenido. Dime un nombre ficticio"
+        ],
+    "FIRST_TIME_USER_REPROMPT": [
+        "Puedes decirme un nombre ficticio?"
+        ],
+    "WELCOME_USER": [
+        "Bienvenido de nuevo {}, quieres algunos datos curiosos? o alomejor un temporizador?"
+        ],
+    "WELCOME_USER_REPROMPT": [
+        "Tan solo di cuantame un dato curioso o empieza un temporizador"
+        ],
+    "TIMER_PERMISSIONS": [
+        "Por favor, dame permisos en la apliación de alexa para los timers"
+        ],
+    "TIMER_RUNNING": [
+        "Tu timer ya está activo!"
+        ],
+    "TIMER_ERROR": [
+        "El timer no ha podido empezar"
+        ],
+    "NEW_NAME": [
+        "Hola {}, es un placer hablar contigo, puedes pedirme algun dato curioso o empezar un temporizador"
+        ],
+    "NEW_NAME_REPROMPT": [
+        "Tan solo di cuantame un dato curioso o empieza un temporizador"
+        ],
+    "FALLBACK": [
+        "Hmm, No estoy seguro. Puedes decir ayudame. Que quieres hacer?"
+        ],
+    "FALLBACK_REPROMPT": [
+        "No lo he podido coger, puedes repetir?"
+        ]
+}

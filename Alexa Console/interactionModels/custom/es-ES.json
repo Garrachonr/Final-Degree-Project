@@ -1,0 +1,116 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "tiempo de datos",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "Ayuda",
+            "Ayudame"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "SetTimerIntent",
+          "slots": [
+            {
+              "name": "duration",
+              "type": "AMAZON.DURATION",
+              "samples": [
+                "{duration}"
+              ]
+            }
+          ],
+          "samples": [
+            "Empieza un temporizador",
+            "Quiero un temporizador",
+            "Quiero un timer",
+            "Quiero un timer de {duration}",
+            "Quiero un temporizador de {duration}",
+            "Temporizador"
+          ]
+        },
+        {
+          "name": "NewNameIntent",
+          "slots": [
+            {
+              "name": "UserNameSlot",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "{UserNameSlot} es mi nombre",
+            "Soy {UserNameSlot}",
+            "Mi nombre es {UserNameSlot}",
+            "Me puedes llamar {UserNameSlot}",
+            "Me llamo {UserNameSlot}",
+            "{UserNameSlot}"
+          ]
+        },
+        {
+          "name": "FactIntent",
+          "slots": [],
+          "samples": [
+            "Cuentame un dato curioso",
+            "Cuentame un dato",
+            "quiero un dato curioso",
+            "dato curioso",
+            "dato",
+            "Quiero un dato",
+            "Dato curiosos"
+          ]
+        }
+      ],
+      "types": []
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "SetTimerIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "duration",
+              "type": "AMAZON.DURATION",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.592040413636.1181605721944"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.592040413636.1181605721944",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Cuanto quieres que tarde el temporizador?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "3"
+}

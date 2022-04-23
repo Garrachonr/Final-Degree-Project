@@ -1,0 +1,124 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "fact time rush",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "FactIntent",
+          "slots": [],
+          "samples": [
+            "tell me a Fact",
+            "Fact"
+          ]
+        },
+        {
+          "name": "NewNameIntent",
+          "slots": [
+            {
+              "name": "UserNameSlot",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "{UserNameSlot}",
+            "you can call me {UserNameSlot}",
+            "I am {UserNameSlot}",
+            "my name is {UserNameSlot}",
+            "{UserNameSlot} is my name"
+          ]
+        },
+        {
+          "name": "SetTimerIntent",
+          "slots": [
+            {
+              "name": "duration",
+              "type": "AMAZON.DURATION",
+              "samples": [
+                "{duration}"
+              ]
+            }
+          ],
+          "samples": [
+            "I want a timer of {duration}",
+            "I want a {duration} timer",
+            "could you start a timer of {duration}",
+            "could you start a timer",
+            "I want a timer",
+            "{duration} timer",
+            "start a timer",
+            "timer"
+          ]
+        }
+      ],
+      "types": []
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "SetTimerIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "duration",
+              "type": "AMAZON.DURATION",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1418560271114.819166426033"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1418560271114.819166426033",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "How long would you like the timer to be"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "1"
+}

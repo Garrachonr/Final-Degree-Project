@@ -1,0 +1,170 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-CA": {
+          "summary": "Simple skill to let you know some interesting facts",
+          "examplePhrases": [
+            "Alexa, open fact time rush"
+          ],
+          "keywords": [
+            "fact",
+            "facts",
+            "interesting",
+            "curiosity"
+          ],
+          "name": "Fact Time Rush",
+          "description": "A bunch of some of the most interesting facts across platforms like reddit!. Also, you now can start a timer and, when it finish, Alexa will tell you a fact.",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        },
+        "en-US": {
+          "summary": "Simple skill to let you know some interesting facts",
+          "examplePhrases": [
+            "Alexa, open fact time rush"
+          ],
+          "keywords": [
+            "fact",
+            "facts",
+            "interesting",
+            "curiosity"
+          ],
+          "name": "Fact Time Rush",
+          "description": "A bunch of some of the most interesting facts across platforms like reddit!. Also, you now can start a timer and, when it finish, Alexa will tell you a fact.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "Simple skill to let you know some interesting facts",
+          "examplePhrases": [
+            "Alexa, open fact time rush"
+          ],
+          "keywords": [
+            "fact",
+            "facts",
+            "interesting",
+            "curiosity"
+          ],
+          "name": "Fact Time Rush",
+          "description": "A bunch of some of the most interesting facts across platforms like reddit!. Also, you now can start a timer and, when it finish, Alexa will tell you a fact.",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        },
+        "en-AU": {
+          "summary": "Simple skill to let you know some interesting facts",
+          "examplePhrases": [
+            "Alexa, open fact time rush"
+          ],
+          "keywords": [
+            "fact",
+            "facts",
+            "interesting",
+            "curiosity"
+          ],
+          "name": "Fact Time Rush",
+          "description": "A bunch of some of the most interesting facts across platforms like reddit!. Also, you now can start a timer and, when it finish, Alexa will tell you a fact.",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "es-ES": {
+          "summary": "Pideme datos o temporizadores con un dato como recompensa!",
+          "examplePhrases": [
+            "Alexa, abre tiempo de datos"
+          ],
+          "keywords": [
+            "datos",
+            "curiosos",
+            "timer"
+          ],
+          "name": "Tiempo de datos",
+          "description": "Skill que tiene dos funcionalidades, por una parte le puedes pedir un dato curioso directamente o pedirle un temporizador con la duración que quieras, y que cuando acabe este te avise y te cuente un dato",
+          "smallIconUri": "file://assets/images/es-ES_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-ES_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "Simple skill to let you know some interesting facts",
+          "examplePhrases": [
+            "Alexa, open fact time rush"
+          ],
+          "keywords": [
+            "fact",
+            "facts",
+            "interesting",
+            "curiosity"
+          ],
+          "name": "Fact Time Rush",
+          "description": "A bunch of some of the most interesting facts across platforms like reddit!. Also, you now can start a timer and, when it finish, Alexa will tell you a fact.",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "open fact time rush, tell a fictitious name the first time and then just say \"tell me a fact\" in order to get a fact, you can also say \"start a timer\" for a timer.\n\nEn español, abre tiempo de datos, le dices un nombre ficticio y después puedes pedir o un dato curioso o un timer",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionMode": "PUBLIC",
+      "automaticClonedLocale": {
+        "locales": [
+          {
+            "source": "en-GB",
+            "targets": [
+              "en-AU",
+              "en-CA",
+              "en-IN",
+              "en-US"
+            ]
+          }
+        ]
+      },
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:592920940464:function:5923c16b-959a-4347-b761-9344a64cda89:Release_3"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:592920940464:function:5923c16b-959a-4347-b761-9344a64cda89:Release_3"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:592920940464:function:5923c16b-959a-4347-b761-9344a64cda89:Release_3"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:592920940464:function:5923c16b-959a-4347-b761-9344a64cda89:Release_3"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::alerts:timers:skill:readwrite"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-CA": {},
+        "en-US": {},
+        "en-IN": {},
+        "en-AU": {},
+        "es-ES": {},
+        "en-GB": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

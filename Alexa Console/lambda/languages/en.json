@@ -1,0 +1,41 @@
+{
+    "LANGUAGE": [
+        "en"
+        ],
+    "FACTS": [
+        "fact"
+        ],
+    "FIRST_TIME_USER": [
+        "Welcome. Tell me a fictitious name"
+        ],
+    "FIRST_TIME_USER_REPROMPT": [
+        "Just tell me a fictitious name"
+        ],
+    "WELCOME_USER": [
+        "Hi again {}, do you want any fact or maybe a timer?"
+        ],
+    "WELCOME_USER_REPROMPT": [
+        "Just say fact or timer"
+        ],
+    "TIMER_PERMISSIONS": [
+        "Please, open the alexa app and give me timer permissions"
+        ],
+    "TIMER_RUNNING": [
+        "Your timer is now running"
+        ],
+    "TIMER_ERROR": [
+        "There was a problem with the timer"
+        ],
+    "NEW_NAME": [
+        "Nice to meet you {}. Yo can ask for a timer or a fact"
+        ],
+    "NEW_NAME_REPROMPT": [
+        "Just say fact or timer"
+        ],
+    "FALLBACK": [
+        "Hmm, I´m not sure, you can say help"
+        ],
+    "FALLBACK_REPROMPT": [
+        "Didn´t catch that, can you repeat?"
+        ]
+}
