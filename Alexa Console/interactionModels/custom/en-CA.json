@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "fact time rush",
+      "invocationName": "buddy thomas",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -15,7 +15,9 @@
         },
         {
           "name": "AMAZON.StopIntent",
-          "samples": []
+          "samples": [
+            "no"
+          ]
         },
         {
           "name": "AMAZON.NavigateHomeIntent",
@@ -74,6 +76,8 @@
             }
           ],
           "samples": [
+            "study for {duration}",
+            "I want study for {duration}",
             "I want a timer of {duration}",
             "I want a {duration} timer",
             "could you start a timer of {duration}",
@@ -83,9 +87,294 @@
             "start a timer",
             "timer"
           ]
+        },
+        {
+          "name": "PomodoroIntent",
+          "slots": [],
+          "samples": [
+            "start method pomodoro",
+            "method pomodoro",
+            "pomodoro",
+            "start pomodoro"
+          ]
+        },
+        {
+          "name": "JokeIntent",
+          "slots": [],
+          "samples": [
+            "any joke",
+            "tell me a joke",
+            "joke"
+          ]
+        },
+        {
+          "name": "TryIntent",
+          "slots": [],
+          "samples": [
+            "trial"
+          ]
+        },
+        {
+          "name": "EfemerideIntent",
+          "slots": [],
+          "samples": [
+            "what happend on a day like today",
+            "on a day like this",
+            "on today date",
+            "What happend on a day like this"
+          ]
+        },
+        {
+          "name": "EfemerideYearIntent",
+          "slots": [
+            {
+              "name": "day",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "month",
+              "type": "AMAZON.Month"
+            }
+          ],
+          "samples": [
+            "What happened on {month} {day}",
+            "What happened on a {day} of {month}",
+            "What happened on a {month} {day}"
+          ]
+        },
+        {
+          "name": "HowToIntent",
+          "slots": [
+            {
+              "name": "topic",
+              "type": "HowToSlot",
+              "samples": [
+                "{topic}"
+              ]
+            }
+          ],
+          "samples": [
+            "I want to learn how to {topic}",
+            "I wanna know how to {topic}",
+            "How to {topic}"
+          ]
+        },
+        {
+          "name": "StudiesIntent",
+          "slots": [
+            {
+              "name": "studies",
+              "type": "StudiesSlot"
+            }
+          ],
+          "samples": [
+            "mi field is related to {studies}",
+            "my field is {studies}",
+            "My studies are related to {studies} ",
+            "Are related to {studies}",
+            "{studies}"
+          ]
+        },
+        {
+          "name": "GiffordIntent",
+          "slots": [],
+          "samples": [
+            "studying method Julia",
+            "start method Julia",
+            "start Julia",
+            "start method Gifford",
+            "start Gifford",
+            "studying method Gifford",
+            "method Gifford"
+          ]
+        },
+        {
+          "name": "RiddleIntent",
+          "slots": [],
+          "samples": [
+            "give me a riddle",
+            "I want a riddle",
+            "told me a riddle",
+            "tell me a riddle",
+            "riddle"
+          ]
+        },
+        {
+          "name": "TrivialIntent",
+          "slots": [],
+          "samples": [
+            "start trivial",
+            "play trivial",
+            "I want to play trivial",
+            "I want play trivial",
+            "lets play trivial",
+            "trivial"
+          ]
+        },
+        {
+          "name": "AnswerTrivialIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "TrivialSlot"
+            }
+          ],
+          "samples": [
+            "the answer is {answer}",
+            "{answer}"
+          ]
+        },
+        {
+          "name": "WhatToDoIntent",
+          "slots": [],
+          "samples": [
+            "What can I ask",
+            "What things can I ask for",
+            "Tell me what things can I do",
+            "Tell me things to do",
+            "Examples of what can I do",
+            "What can I do"
+          ]
+        },
+        {
+          "name": "TutorialIntent",
+          "slots": [
+            {
+              "name": "method",
+              "type": "TutorialSlot"
+            }
+          ],
+          "samples": [
+            "What is {method}",
+            "What is method {method}",
+            "How {method} works",
+            "How method {method} works"
+          ]
+        },
+        {
+          "name": "StudyIntent",
+          "slots": [],
+          "samples": [
+            "start study time",
+            "I want to study",
+            "Lets study",
+            "study time",
+            "Start studyng",
+            "Study"
+          ]
         }
       ],
-      "types": []
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Learn"
+              }
+            },
+            {
+              "name": {
+                "value": "Focus"
+              }
+            },
+            {
+              "name": {
+                "value": "Relax"
+              }
+            },
+            {
+              "name": {
+                "value": "Study"
+              }
+            }
+          ],
+          "name": "HowToSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Law"
+              }
+            },
+            {
+              "name": {
+                "value": "Health"
+              }
+            },
+            {
+              "name": {
+                "value": "Tech"
+              }
+            },
+            {
+              "name": {
+                "value": "General"
+              }
+            }
+          ],
+          "name": "StudiesSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "four",
+                "synonyms": [
+                  "fourth",
+                  "4"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "three",
+                "synonyms": [
+                  "third",
+                  "3"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "two",
+                "synonyms": [
+                  "second",
+                  "2"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "one",
+                "synonyms": [
+                  "first",
+                  "1"
+                ]
+              }
+            }
+          ],
+          "name": "TrivialSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Pomodoro"
+              }
+            },
+            {
+              "name": {
+                "value": "Julia",
+                "synonyms": [
+                  "Gifford"
+                ]
+              }
+            }
+          ],
+          "name": "TutorialSlot"
+        }
+      ]
     },
     "dialog": {
       "intents": [
@@ -104,6 +393,22 @@
               }
             }
           ]
+        },
+        {
+          "name": "HowToIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "topic",
+              "type": "HowToSlot",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.988843458097.1396563323291"
+              }
+            }
+          ]
         }
       ],
       "delegationStrategy": "ALWAYS"
@@ -117,8 +422,17 @@
             "value": "How long would you like the timer to be"
           }
         ]
+      },
+      {
+        "id": "Elicit.Slot.988843458097.1396563323291",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Do you want to learn how to study, focus, learn or relax"
+          }
+        ]
       }
     ]
   },
-  "version": "2"
+  "version": "9"
 }

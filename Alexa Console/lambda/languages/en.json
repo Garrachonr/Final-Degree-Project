@@ -2,20 +2,103 @@
     "LANGUAGE": [
         "en"
         ],
+    "LANGUAGE2": [
+        "en-US"
+        ],
+    "EXCEPTION": [
+        "Sorry, I had troubles, can you ask me for something else?"
+        ],
+    "BYE": [
+        "Ear you soon!"
+        ],
+    "KEEP": [
+        ". something else?",
+        ". anything else?",
+        ". do you want anything else",
+        ". what else can I do"
+        ],
+    "HELP": [
+        "Hello {}, I´m Tomas, your personal assistant. I'll tell you about some capabilities I have, so if you want to cut me off for further discussion, say Alexa and the action you want. You can ask me for a fun fact, a joke or an ephemeris. You can also ask me how to study, concentrate, learn or relax. If you want to start studying, you can ask me for a timer with the time you want or to start a study method like pomodoro or Julia. You can also aks me for a riddle or to play trivial. "
+        ],
     "FACTS": [
         "fact"
         ],
+    "POMODORO": [
+        "The pomodoro method consists of 25 minute work periods and 5 minute breaks, I can program it for you if you want it."
+        ],
+    "GIFFORD": [
+        "The pomodoro method consists of 52 minute work periods and 17 minute breaks, I can program it for you if you want it."
+        ],
+    "STUDY_TUTORIAL": [
+        "If you would like to study, you can ask me for the pomodoro method or the julia method"
+        ],
+    "RIDDLE_ANSWER": [
+        "answer"
+        ],
+    "NONE_HOWTO": [
+        "Currently I don´t know how to do that, you can ask how to relax, study, focus o learn"
+        ],
+    "RIDDLE_QUESTION": [
+        "riddle"
+        ],
+    "TRIVIAL_ANSWER": [
+        "answer"
+        ],
+    "NONE_TRIVIAL": [
+        "To win, say the number of your answer"
+        ],
+    "TRIVIAL_QUESTION": [
+        "question"
+        ],
+    "TRIVIAL_CORRECT": [
+        "Congratulations, thats correct"
+        ],
+    "TRIVIAL_WRONG": [
+        "Sorry, but the correct answer is {}"
+        ],
+    "TRIVIAL_MISSING": [
+        "Ask for a trivial first, please"
+        ],
+    "WIKI": [
+        "summary"
+        ],
+    "JOKES": [
+        "joke"
+        ],
+    "EFEMERIDE": [
+        "efemerideEN"
+        ],
+    "EFEMERIDETODAY": [
+        "On today´s date but in the {}, {}"
+        ],
+    "EFEMERIDEYEAR": [
+        "On that day but in the {}, {}"
+        ],
     "FIRST_TIME_USER": [
-        "Welcome. Tell me a fictitious name"
+        "Welcome. I'm tomas, your personal assistant able to help you in your studies. As this is yout first time, let´s configure your profile a bit. First of all, tell me a fictitious name"
         ],
     "FIRST_TIME_USER_REPROMPT": [
         "Just tell me a fictitious name"
         ],
-    "WELCOME_USER": [
-        "Hi again {}, do you want any fact or maybe a timer?"
+    "SECOND_TIME_USER": [
+        "Hi {}, now can you tell me wich field are your studies related to? You can choose between Tech, Health or Law. If you don´t have studies, say general"
         ],
-    "WELCOME_USER_REPROMPT": [
-        "Just say fact or timer"
+    "SECOND_TIME_USER_REPROMPT": [
+        "Choose between tech, health or law. if not, then say general"
+        ],
+    "STUDIES_ERROR": [
+        "Please, first of all choose between tech, health or law. if not, then say general"
+        ],
+    "STUDIES_ERROR_REPROMPT": [
+        "Just choose between tech, health or law. if not, then say general"
+        ],
+    "WELCOME_USER": [
+        "Hi again {}, what do you want?"
+        ],
+    "REPROMPT": [
+        "You can ask, for example, for a fact, a timer or to play trivial",
+        "You can say, for example, what happend on a day like today or how to study",
+        "You can ask, for example, for a joke or to start the method pomodoro"
         ],
     "TIMER_PERMISSIONS": [
         "Please, open the alexa app and give me timer permissions"
@@ -26,16 +109,58 @@
     "TIMER_ERROR": [
         "There was a problem with the timer"
         ],
+    "RIDDLE_ERROR": [
+        "There was a problem with the riddle"
+        ],
+    "ANSWER_RIDDLE": [
+        "The answer is {}"
+        ],
     "NEW_NAME": [
-        "Nice to meet you {}. Yo can ask for a timer or a fact"
+        "Nice to meet you {}. Now can you tell me wich field are your studies related to? You can choose between Tech, Health or Law. If you don´t have studies, say general"
+        ],
+    "NEW_NAME2": [
+        "Now I will call you {}. If you wanna change also your field, now it´s the time for it!. Say Tech, Health, Law or general. If not, just ask me for another thing"
         ],
     "NEW_NAME_REPROMPT": [
-        "Just say fact or timer"
+        "Repeat your field please, it can be Tech, Health, Law or General"
+        ],
+    "NEW_NAME_REPROMPT2": [
+        "If you have tried to change your name, repeat it please"
+        ],
+    "NEW_STUDIES": [
+        "So your field is {}, perfect, you can now use my full potential!, maybe you can start asking for a fact or how to study"
+        ],
+    "NEW_STUDIES2": [
+        "Please, first of all tell me your ficticious name"
+        ],
+    "NEW_STUDIES_REPROMPT": [
+        "You could ask me, for example, how to concentraate or to start the study time"
+        ],
+    "NEW_STUDIES_REPROMPT2": [
+        "Repeat your ficticious name please"
         ],
     "FALLBACK": [
         "Hmm, I´m not sure, you can say help"
         ],
     "FALLBACK_REPROMPT": [
         "Didn´t catch that, can you repeat?"
+        ],
+    "POMODORO_RUNNING": [
+        "Pomodoro routine has started"
+        ],
+    "BREAK": [
+        "Well done, disconnect during this break. {}"
+        ],
+    "STUDY": [
+        "Let´s study again, good luck!"
+        ],
+    "POMODORO_END": [
+        "Congratulations, you have finished the method pomodoro, here you have your last fun fact. {}"
+        ],
+    "JULIA_RUNNING": [
+        "The Julia method has started"
+        ],
+    "JULIA_END": [
+        "Congratulations, you have finished the method Julia, here you have your last fun fact. {}"
         ]
 }

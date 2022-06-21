@@ -2,20 +2,100 @@
     "LANGUAGE": [
         "es"
         ],
+    "LANGUAGE2": [
+        "es-ES"
+        ],
+    "EXCEPTION": [
+        "Lo siento, he tenido problemas, ¿puedes pedirme otra cosa?"
+        ],
+    "BYE": [
+        "¡Espero oirte pronto!"
+        ],
+    "KEEP": [
+        ". ¿Quieres algo más?",
+        ". ¿Algo más?",
+        ". ¿En que más puedo ayudarte?",
+        ". ¿Alguna cosa más?"
+        ],
     "FACTS": [
-        "dato"
+        "factES"
+        ],
+    "POMODORO": [
+        "El método pomodoro consiste en periodos de trabajo de 25 minutos y descansos de 5 minutos, yo me ocupo de programartelo si lo quieres"
+        ],
+    "GIFFORD": [
+        "El método Julia consiste en periodos de trabajo de 52 minutos y descansos de 17 minutos, yo me ocupo de programartelo si lo quieres"
+        ],
+    "STUDY_TUTORIAL": [
+        "Si quieres empezar a estudiar, puedes pedirme o preguntarme por el método pomodoro o el método Julia"
+        ],
+    "RIDDLE_ANSWER": [
+        "respuesta"
+        ],
+    "RIDDLE_QUESTION": [
+        "adivinanza"
+        ],
+    "TRIVIAL_ANSWER": [
+        "respuesta"
+        ],
+    "NONE_TRIVIAL": [
+        "Para responder, diga el número de la respuesta"
+        ],
+    "TRIVIAL_QUESTION": [
+        "pregunta"
+        ],
+    "TRIVIAL_CORRECT": [
+        "Felicidades, respuesta correcta"
+        ],
+    "TRIVIAL_WRONG": [
+        "Lo siento, pero la respuesta correcta es {}"
+        ],
+    "TRIVIAL_MISSING": [
+        "Preguntame por un trivial primero, por favor"
+        ],
+    "HELP": [
+        "Hola {}. Soy Tomás, tu asistente personal. Te comentaré algunas capacidades que tengo, en el momento que quieras cortarme para seguir charlando, di Alexa y la acción que quieras. Puedes pedirme un dato curioso, un chiste o un efeméride. Puedes también preguntarme como estudiar, concentrarte, aprender o relajarte. Si quieres empezar a estudiar, puedes pedirme un temporizador con el tiempo que quieras o que inicie algún método de estudio como el pomodoro o Julia. También puedes pedirme alguna adivinanza o jugar al trivial"
+        ],
+    "WIKI": [
+        "summaryES"
+        ],
+    "JOKES": [
+        "chiste"
+        ],
+    "EFEMERIDE": [
+        "efemerideES"
+        ],
+    "EFEMERIDETODAY": [
+        "En un dia como hoy pero en el {}, {}"
+        ],
+    "EFEMERIDEYEAR": [
+        "En ese dia pero en el {}, {}"
         ],
     "FIRST_TIME_USER": [
-        "Bienvenido. Dime un nombre ficticio"
+        "Bienvenido. Soy tomas, tu asistente personal capaz de ayudarte en tus estudios. Como es tu primera vez, vamos a configurar un poco tu perfil. En primer lugar, dime un nombre ficticio"
         ],
     "FIRST_TIME_USER_REPROMPT": [
         "Puedes decirme un nombre ficticio?"
         ],
-    "WELCOME_USER": [
-        "Bienvenido de nuevo {}, quieres algunos datos curiosos? o alomejor un temporizador?"
+    "SECOND_TIME_USER": [
+        "Hola {}, ¿podrías decirme a qué campo están relacionados tus estudios? Puedes elegir entre Tecnología, Salud o Legal. Si no tienes estudios, di general"
         ],
-    "WELCOME_USER_REPROMPT": [
-        "Tan solo di cuantame un dato curioso o empieza un temporizador"
+    "SECOND_TIME_USER_REPROMPT": [
+        "Elige entre Tecnología, Salud o Legal. Si no, di general"
+        ],
+    "STUDIES_ERROR": [
+        "Por favor, primer elige entre Tecnología, Salud o Legal. Si no, di general"
+        ],
+    "STUDIES_ERROR_REPROMPT": [
+        "Solo elige entre Tecnología, Salud o Legal. Si no, di general"
+        ],
+    "WELCOME_USER": [
+        "Bienvenido de nuevo {}, que quieres hacer?"
+        ],
+    "REPROMPT": [
+        "Puedes pedirme, por ejemplo, un dato curioso, empezar un temporizador o jugar al trivial",
+        "Puedes decirme, por ejemplo, que te cuente un chiste o empezar el método pomodoro",
+        "Puedes preguntarme que pasó en un dia como hoy o como estudiar"
         ],
     "TIMER_PERMISSIONS": [
         "Por favor, dame permisos en la apliación de alexa para los timers"
@@ -26,16 +106,61 @@
     "TIMER_ERROR": [
         "El timer no ha podido empezar"
         ],
+    "RIDDLE_ERROR": [
+        "Ha habido un problema con la adivinanza"
+        ],
+    "ANSWER_RIDDLE": [
+        "La respuesta es {}"
+        ],
+    "NONE_HOWTO": [
+        "Todavía no sé hacer eso, puedes pedirme como relajarte, estudiar, concentrarte o aprender"
+        ],
     "NEW_NAME": [
-        "Hola {}, es un placer hablar contigo, puedes pedirme algun dato curioso o empezar un temporizador"
+        "Encantado de conocerte {}. Ahora, ¿puede decirme con qué campo está relacionado tus estudios? Puedes elegir entre Tecnología, Salud o Legal. Si no tienes estudios, di general"
+        ],
+    "NEW_NAME2": [
+        "Ahora te llamaré {}. Si quieres cambiar también tu campo, ¡ahora es el momento de hacerlo!. Di Tecnología, Salud, Legal o general. Si no, sólo pídeme otra cosa"
         ],
     "NEW_NAME_REPROMPT": [
-        "Tan solo di cuantame un dato curioso o empieza un temporizador"
+        "Repite el campor por favor, puede ser Tecnología, Salud, Legal o general"
+        ],
+    "NEW_NAME_REPROMPT2": [
+        "Si has tratado de cambiar tu nombre, por favor repitelo"
+        ],
+    "NEW_STUDIES": [
+        "Así que su campo es {}, perfecto, ahora puede utilizar todo mi potencial!, tal vez puede comenzar pidiendome un dato curioso o preguntar cómo estudiar"
+        ],
+    "NEW_STUDIES2": [
+        "Por favor, primero dime tu nombre ficticio"
+        ],
+    "NEW_STUDIES_REPROMPT": [
+        "Me puedes preguntar, por ejemplo, como concentrarte o empezar el tiempo de estudio"
+        ],
+    "NEW_STUDIES_REPROMPT2": [
+        "Repiteme tu nombre ficticio por favor"
         ],
     "FALLBACK": [
         "Hmm, No estoy seguro. Puedes decir ayudame. Que quieres hacer?"
         ],
     "FALLBACK_REPROMPT": [
         "No lo he podido coger, puedes repetir?"
+        ],
+    "POMODORO_RUNNING": [
+        "Empieza el metodo Pomodoro. Buena suerte!"
+        ],
+    "BREAK": [
+        "Bien hecho, desconecta durante este descanso. {}"
+        ],
+    "STUDY": [
+        "Otra vez a estudiar, suerte!"
+        ],
+    "POMODORO_END": [
+        "Felicidades, has acabado, espero que te haya servido, aquí tienes el último dato curioso. {}"
+        ],
+    "JULIA_RUNNING": [
+        "Da comienzo el metodo Julia. A por ello!"
+        ],
+    "JULIA_END": [
+        "Felicidades, has acabado el método Julia, espero que te haya servido, aquí tienes el último dato curioso. {}"
         ]
 }

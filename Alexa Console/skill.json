@@ -3,97 +3,163 @@
     "publishingInformation": {
       "locales": {
         "en-CA": {
-          "summary": "Simple skill to let you know some interesting facts",
+          "summary": "I\u0027m Thomas, your partner who will help you during your study hours, making them more enjoyable.",
           "examplePhrases": [
-            "Alexa, open fact time rush"
+            "Alexa open buddy thomas",
+            "play trivial",
+            "start method pomodoro"
           ],
           "keywords": [
-            "fact",
+            "study",
+            "jokes",
+            "trivial",
+            "riddle",
+            "pomodoro",
             "facts",
-            "interesting",
-            "curiosity"
+            "fun",
+            "entertaiment",
+            "relax",
+            "joy",
+            "buddy",
+            "focus",
+            "learn"
           ],
-          "name": "Fact Time Rush",
-          "description": "A bunch of some of the most interesting facts across platforms like reddit!. Also, you now can start a timer and, when it finish, Alexa will tell you a fact.",
+          "name": "Buddy Thomas",
+          "description": "Hi, I\u0027m Thomas, your personal assistant. I will guide you during your study hours so that you can entertain yourself and relax when you are tired. I will also guide you during your study by doing famous techniques to make the most of your time, such as the pomodoro method or the Julia method.\n\nI will tell you about some skills I have. You can ask me for a fun fact, a joke or an ephemeris. You can also ask me how to study, concentrate, learn or relax. If you want to start studying, you can ask me for a timer with the time you want or to start a study method like pomodoro or Julia. You can also ask me for a riddle or play a trivia game.\n\nWhen in doubt, ask me \"what can I do\" and I will give you examples, or say \"help\" and I will tell you in more detail.",
           "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
           "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
         },
         "en-US": {
-          "summary": "Simple skill to let you know some interesting facts",
+          "summary": "I\u0027m Thomas, your partner who will help you during your study hours, making them more enjoyable.",
           "examplePhrases": [
-            "Alexa, open fact time rush"
+            "Alexa open buddy thomas",
+            "play trivial",
+            "start method pomodoro"
           ],
           "keywords": [
-            "fact",
+            "study",
+            "jokes",
+            "trivial",
+            "riddle",
+            "pomodoro",
             "facts",
-            "interesting",
-            "curiosity"
+            "fun",
+            "entertaiment",
+            "relax",
+            "joy",
+            "buddy",
+            "focus",
+            "learn"
           ],
-          "name": "Fact Time Rush",
-          "description": "A bunch of some of the most interesting facts across platforms like reddit!. Also, you now can start a timer and, when it finish, Alexa will tell you a fact.",
+          "name": "Buddy Thomas",
+          "description": "Hi, I\u0027m Thomas, your personal assistant. I will guide you during your study hours so that you can entertain yourself and relax when you are tired. I will also guide you during your study by doing famous techniques to make the most of your time, such as the pomodoro method or the Julia method.\n\nI will tell you about some skills I have. You can ask me for a fun fact, a joke or an ephemeris. You can also ask me how to study, concentrate, learn or relax. If you want to start studying, you can ask me for a timer with the time you want or to start a study method like pomodoro or Julia. You can also ask me for a riddle or play a trivia game.\n\nWhen in doubt, ask me \"what can I do\" and I will give you examples, or say \"help\" and I will tell you in more detail.",
           "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
           "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
         },
         "en-IN": {
-          "summary": "Simple skill to let you know some interesting facts",
+          "summary": "I\u0027m Thomas, your partner who will help you during your study hours, making them more enjoyable.",
           "examplePhrases": [
-            "Alexa, open fact time rush"
+            "Alexa open buddy thomas",
+            "play trivial",
+            "start method pomodoro"
           ],
           "keywords": [
-            "fact",
+            "study",
+            "jokes",
+            "trivial",
+            "riddle",
+            "pomodoro",
             "facts",
-            "interesting",
-            "curiosity"
+            "fun",
+            "entertaiment",
+            "relax",
+            "joy",
+            "buddy",
+            "focus",
+            "learn"
           ],
-          "name": "Fact Time Rush",
-          "description": "A bunch of some of the most interesting facts across platforms like reddit!. Also, you now can start a timer and, when it finish, Alexa will tell you a fact.",
+          "name": "Buddy Thomas",
+          "description": "Hi, I\u0027m Thomas, your personal assistant. I will guide you during your study hours so that you can entertain yourself and relax when you are tired. I will also guide you during your study by doing famous techniques to make the most of your time, such as the pomodoro method or the Julia method.\n\nI will tell you about some skills I have. You can ask me for a fun fact, a joke or an ephemeris. You can also ask me how to study, concentrate, learn or relax. If you want to start studying, you can ask me for a timer with the time you want or to start a study method like pomodoro or Julia. You can also ask me for a riddle or play a trivia game.\n\nWhen in doubt, ask me \"what can I do\" and I will give you examples, or say \"help\" and I will tell you in more detail.",
           "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
           "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
         },
-        "en-AU": {
-          "summary": "Simple skill to let you know some interesting facts",
-          "examplePhrases": [
-            "Alexa, open fact time rush"
-          ],
-          "keywords": [
-            "fact",
-            "facts",
-            "interesting",
-            "curiosity"
-          ],
-          "name": "Fact Time Rush",
-          "description": "A bunch of some of the most interesting facts across platforms like reddit!. Also, you now can start a timer and, when it finish, Alexa will tell you a fact.",
-          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
-          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
-        },
         "es-ES": {
-          "summary": "Pideme datos o temporizadores con un dato como recompensa!",
+          "summary": "Soy Tomás, tu compañero que te ayudará durante tus horas de estudio haciéndolas más amenas",
           "examplePhrases": [
-            "Alexa, abre tiempo de datos"
+            "Alexa, abre lazarillo tomás",
+            "Quiero un dato curioso",
+            "Empieza el método pomodoro"
           ],
           "keywords": [
+            "estudiar",
+            "chistes",
+            "trivial",
+            "adivinanzas",
+            "pomodoro",
             "datos",
             "curiosos",
-            "timer"
+            "entretenimiento",
+            "desconectar",
+            "diversión",
+            "concentrarse",
+            "aprender"
           ],
-          "name": "Tiempo de datos",
-          "description": "Skill que tiene dos funcionalidades, por una parte le puedes pedir un dato curioso directamente o pedirle un temporizador con la duración que quieras, y que cuando acabe este te avise y te cuente un dato",
+          "name": "Lazarillo Tomás",
+          "description": "Hola, soy Tomás, tu asistente personal. Te guiaré durante tus horas de estudio para que puedas entretenerse y relajarte cuando estés cansado. También te guiaré durante el estudio haciendo técnicas famosas para aprovechar al máximo el tiempo, como el método pomodoro o el método Julia.\n\nTe comentaré algunas capacidades que tengo. Puedes pedirme un dato curioso, un chiste o un efeméride. Puedes también preguntarme como estudiar, concentrarte, aprender o relajarte. Si quieres empezar a estudiar, puedes pedirme un temporizador con el tiempo que quieras o que inicie algún método de estudio como el pomodoro o Julia. También puedes pedirme alguna adivinanza o jugar al trivial.\n\nEn el momento que tengas dudas, pregúntame \"que puedo hacer\" y te daré ejemplos, o di \"ayuda\" y te lo diré mas detalladamente.",
           "smallIconUri": "file://assets/images/es-ES_smallIconUri.png",
           "largeIconUri": "file://assets/images/es-ES_largeIconUri.png"
         },
-        "en-GB": {
-          "summary": "Simple skill to let you know some interesting facts",
+        "en-AU": {
+          "summary": "I\u0027m Thomas, your partner who will help you during your study hours, making them more enjoyable.",
           "examplePhrases": [
-            "Alexa, open fact time rush"
+            "Alexa open buddy thomas",
+            "play trivial",
+            "start method pomodoro"
           ],
           "keywords": [
-            "fact",
+            "study",
+            "jokes",
+            "trivial",
+            "riddle",
+            "pomodoro",
             "facts",
-            "interesting",
-            "curiosity"
+            "fun",
+            "entertaiment",
+            "relax",
+            "joy",
+            "buddy",
+            "focus",
+            "learn"
           ],
-          "name": "Fact Time Rush",
-          "description": "A bunch of some of the most interesting facts across platforms like reddit!. Also, you now can start a timer and, when it finish, Alexa will tell you a fact.",
+          "name": "Buddy Thomas",
+          "description": "Hi, I\u0027m Thomas, your personal assistant. I will guide you during your study hours so that you can entertain yourself and relax when you are tired. I will also guide you during your study by doing famous techniques to make the most of your time, such as the pomodoro method or the Julia method.\n\nI will tell you about some skills I have. You can ask me for a fun fact, a joke or an ephemeris. You can also ask me how to study, concentrate, learn or relax. If you want to start studying, you can ask me for a timer with the time you want or to start a study method like pomodoro or Julia. You can also ask me for a riddle or play a trivia game.\n\nWhen in doubt, ask me \"what can I do\" and I will give you examples, or say \"help\" and I will tell you in more detail.",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "I\u0027m Thomas, your partner who will help you during your study hours, making them more enjoyable.",
+          "examplePhrases": [
+            "Alexa open buddy thomas",
+            "play trivial",
+            "start method pomodoro"
+          ],
+          "keywords": [
+            "study",
+            "jokes",
+            "trivial",
+            "riddle",
+            "pomodoro",
+            "facts",
+            "fun",
+            "entertaiment",
+            "relax",
+            "joy",
+            "buddy",
+            "focus",
+            "learn"
+          ],
+          "name": "Buddy Thomas",
+          "description": "Hi, I\u0027m Thomas, your personal assistant. I will guide you during your study hours so that you can entertain yourself and relax when you are tired. I will also guide you during your study by doing famous techniques to make the most of your time, such as the pomodoro method or the Julia method.\n\nI will tell you about some skills I have. You can ask me for a fun fact, a joke or an ephemeris. You can also ask me how to study, concentrate, learn or relax. If you want to start studying, you can ask me for a timer with the time you want or to start a study method like pomodoro or Julia. You can also ask me for a riddle or play a trivia game.\n\nWhen in doubt, ask me \"what can I do\" and I will give you examples, or say \"help\" and I will tell you in more detail.",
           "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
           "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
         }
@@ -102,19 +168,13 @@
         "isActive": false
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "open fact time rush, tell a fictitious name the first time and then just say \"tell me a fact\" in order to get a fact, you can also say \"start a timer\" for a timer.\n\nEn español, abre tiempo de datos, le dices un nombre ficticio y después puedes pedir o un dato curioso o un timer",
-      "category": "KNOWLEDGE_AND_TRIVIA",
+      "testingInstructions": "ENGLISH: Tell me a fact, tell me a joke, play trivial, what happened on a day like today, give me a riddle, start method pomodoro, start a 10 minutes timer.\n\nALSO Take into account in previous feedback you said there are errors in the pomodoroIntent, giffordIntent and timerintent. It seems you have a problem with timers, because these works perfectly in several devices I have tried\n\nSPANISH: Cuentame un dato curioso, jugar al trivial, cuéntame un chiste, que pasó en un dia como hoy, dame una adivinanza, empezar método pomodoro, empezar un temporizador de 10 minutos\n\nTAMBIEN Ten en cuenta que en el comentario anterior dices que hay errores en el pomodoroIntent, giffordIntent y timerintent. Parece que tienes un problema con los temporizadores, porque estos funcionan perfectamente en varios dispositivos que he probado",
+      "category": "SELF_IMPROVEMENT",
       "distributionMode": "PUBLIC",
       "automaticClonedLocale": {
         "locales": [
           {
-            "source": "en-GB",
-            "targets": [
-              "en-AU",
-              "en-CA",
-              "en-IN",
-              "en-US"
-            ]
+            "source": "en-GB"
           }
         ]
       },
@@ -123,23 +183,23 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "arn:aws:lambda:us-east-1:592920940464:function:5923c16b-959a-4347-b761-9344a64cda89:Release_3"
+          "uri": "arn:aws:lambda:us-east-1:592920940464:function:5c747f10-5556-4c22-a0e7-328714118b64:Release_3"
         },
         "interfaces": [],
         "regions": {
           "EU": {
             "endpoint": {
-              "uri": "arn:aws:lambda:eu-west-1:592920940464:function:5923c16b-959a-4347-b761-9344a64cda89:Release_3"
+              "uri": "arn:aws:lambda:eu-west-1:592920940464:function:5c747f10-5556-4c22-a0e7-328714118b64:Release_3"
             }
           },
           "NA": {
             "endpoint": {
-              "uri": "arn:aws:lambda:us-east-1:592920940464:function:5923c16b-959a-4347-b761-9344a64cda89:Release_3"
+              "uri": "arn:aws:lambda:us-east-1:592920940464:function:5c747f10-5556-4c22-a0e7-328714118b64:Release_3"
             }
           },
           "FE": {
             "endpoint": {
-              "uri": "arn:aws:lambda:us-west-2:592920940464:function:5923c16b-959a-4347-b761-9344a64cda89:Release_3"
+              "uri": "arn:aws:lambda:us-west-2:592920940464:function:5c747f10-5556-4c22-a0e7-328714118b64:Release_3"
             }
           }
         }
@@ -157,8 +217,8 @@
         "en-CA": {},
         "en-US": {},
         "en-IN": {},
-        "en-AU": {},
         "es-ES": {},
+        "en-AU": {},
         "en-GB": {}
       },
       "containsAds": false,

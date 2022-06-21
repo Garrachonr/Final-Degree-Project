@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "tiempo de datos",
+      "invocationName": "lazarillo tomás",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -10,13 +10,23 @@
         {
           "name": "AMAZON.HelpIntent",
           "samples": [
+            "busco ayuda",
+            "quiero ayuda",
+            "dame ayuda",
+            "socorro",
+            "ayudame porfavor",
+            "ayúdame por favor",
+            "necesito ayuda",
             "Ayuda",
             "Ayudame"
           ]
         },
         {
           "name": "AMAZON.StopIntent",
-          "samples": []
+          "samples": [
+            "para",
+            "no"
+          ]
         },
         {
           "name": "AMAZON.NavigateHomeIntent",
@@ -38,6 +48,22 @@
             }
           ],
           "samples": [
+            "cronómetro duranción {duration}",
+            "cronómetro de {duration}",
+            "temporizador de {duration}",
+            "temporizador {duration}",
+            "empezar {duration}",
+            "vamos a estudiar {duration}",
+            "voy a estudiar {duration}",
+            "estudiar {duration}",
+            "comenzar el estudio durante {duration}",
+            "me apetece estudiar durante {duration}",
+            "voy a estudiar durante {duration}",
+            "vamos a estudiar durante {duration}",
+            "quiero empezar a estudiar durante {duration}",
+            "empezar a estudiar durante {duration}",
+            "quiero estudiar durante {duration}",
+            "Quiero estudiar {duration}",
             "Empieza un temporizador",
             "Quiero un temporizador",
             "Quiero un timer",
@@ -55,6 +81,11 @@
             }
           ],
           "samples": [
+            "ahora soy {UserNameSlot}",
+            "ahora me llamo {UserNameSlot}",
+            "cambiar mi nombre por {UserNameSlot}",
+            "cambiar mi nombre a {UserNameSlot}",
+            "mi nuevo nombre es {UserNameSlot}",
             "{UserNameSlot} es mi nombre",
             "Soy {UserNameSlot}",
             "Mi nombre es {UserNameSlot}",
@@ -67,6 +98,23 @@
           "name": "FactIntent",
           "slots": [],
           "samples": [
+            "puedes decir una curiosidad",
+            "puedes decir un dato curioso",
+            "puedes decir un dato",
+            "curiosidad",
+            "búscame una curiosidad",
+            "búscame un dato curioso",
+            "búscame un dato",
+            "puedes darme un dato",
+            "puedes darme una curiosidad",
+            "puedes darme un dato curioso",
+            "lánzame un dato durioso",
+            "me apetece un dato curioso",
+            "me apetece un dato",
+            "cuéntame una curiosidad",
+            "quiero una curiosidad",
+            "lánzame un dato curioso",
+            "lánzame un dato",
             "Cuentame un dato curioso",
             "Cuentame un dato",
             "quiero un dato curioso",
@@ -75,9 +123,428 @@
             "Quiero un dato",
             "Dato curiosos"
           ]
+        },
+        {
+          "name": "PomodoroIntent",
+          "slots": [],
+          "samples": [
+            "inicia método pomodoro",
+            "quiero iniciar método pomodoro",
+            "dar inicio método pomodoro",
+            "iniciar método pomodoro",
+            "dar comienzo pomodoro",
+            "dar comienzo al pomodoro",
+            "comenzar método pomodoro",
+            "empezar pomodoro",
+            "comienzo método pomodoro",
+            "dar comienzo al método pomodoro",
+            "lanzar método pomodoro",
+            "voy a usar el método pomodoro",
+            "quiero empezar el método pomodoro",
+            "comenzar pomodoro",
+            "método pomodoro",
+            "empezar método pomodoro",
+            "pomodoro",
+            "metodo pomodoro"
+          ]
+        },
+        {
+          "name": "JokeIntent",
+          "slots": [],
+          "samples": [
+            "enviame un chiste",
+            "envia un chiste",
+            "lanza chiste",
+            "querría un chiste por favor",
+            "querría un chiste",
+            "puedees lanzarme un chiste por favor",
+            "puedes darme un chiste por favor",
+            "puedes lanzarme un chiste",
+            "puedes darme un chiste",
+            "quiero un chiste por favor",
+            "lanzame un chiste por favor",
+            "dame un chiste por favor",
+            "un chiste por favor",
+            "un chiste",
+            "cuéntame un chiste",
+            "cuenta un chiste",
+            "lanza un chiste",
+            "dame un chiste",
+            "quiero reir",
+            "intenta hacerme reir",
+            "quiero reirme",
+            "hazme reir",
+            "lanzame un chiste",
+            "quiero un chiste",
+            "dime un chiste",
+            "cuentame un chiste",
+            "chiste"
+          ]
+        },
+        {
+          "name": "TryIntent",
+          "slots": [],
+          "samples": [
+            "prueba"
+          ]
+        },
+        {
+          "name": "EfemerideYearIntent",
+          "slots": [
+            {
+              "name": "day",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "month",
+              "type": "AMAZON.Month"
+            }
+          ],
+          "samples": [
+            "dime que sucedió un {day} de {month}",
+            "cuéntame que sucedió un {day} de {month}",
+            "cuéntame que ocurrió un {day} de {month}",
+            "cuéntame que pasó un {day} de {month}",
+            "qué pasó un {day} de {month}",
+            "qué sucedió un {day} de {month}",
+            "qué ocurrió un {day} de {month}",
+            "{day} de {month} ",
+            "que ocurrió un {day} de {month}",
+            "que ocurrio un {day} de {month}",
+            "que sucedio un {day} de {month}",
+            "que paso un {day} de {month}",
+            "Que pasó un {day} de {month}",
+            "Que sucedió un {day} de {month}"
+          ]
+        },
+        {
+          "name": "EfemerideIntent",
+          "slots": [],
+          "samples": [
+            "efemeride de hoy",
+            "qué ocurrió un dia como hoy",
+            "qué sucedió un dia como hoy",
+            "qué pasó un dia como hoy",
+            "que pasó un dia como hoy",
+            "Que sucedió un dia como hoy",
+            "Cuentame una efemeride",
+            "Efemeride"
+          ]
+        },
+        {
+          "name": "HowToIntent",
+          "slots": [
+            {
+              "name": "topic",
+              "type": "HowToSlot"
+            }
+          ],
+          "samples": [
+            "Quiero {topic}",
+            "Quiero aprender a {topic}",
+            "Como puedo {topic}",
+            "Quiero aprender como {topic}",
+            "Como {topic}"
+          ]
+        },
+        {
+          "name": "StudiesIntent",
+          "slots": [
+            {
+              "name": "studies",
+              "type": "StudiesSlot"
+            }
+          ],
+          "samples": [
+            "mi campo de estudio es {studies}",
+            "mi campo es {studies}",
+            "están relacionados a {studies}",
+            "el campo es {studies}",
+            "mis estudios están relacionados a {studies}",
+            "{studies}"
+          ]
+        },
+        {
+          "name": "GiffordIntent",
+          "slots": [],
+          "samples": [
+            "inicia método Julia",
+            "quiero dar inicio al método Julia",
+            "quiero dar comienzo al método Julia",
+            "quiero iniciar el método Julia",
+            "puedes iniciar el método Julia",
+            "iniciar el método Julia",
+            "iniciar método Julia",
+            "dar comienzo método Julia",
+            "puedes comenzar método Julia",
+            "puedes comenzar el método Julia",
+            "puedes empezar método Julia",
+            "puedes empezar el método Julia",
+            "vamos con el método Julia",
+            "Dar comienzo al método Julia",
+            "Quiero empezar método Julia",
+            "quiero empezar el método Julia",
+            "quiero comenzar método Julia",
+            "quiero comenzar el método Julia",
+            "comenzar metodo Julia",
+            "estudiar metodo Gifford",
+            "estudiar metodo Julia",
+            "empezar metodo Gifford",
+            "empezar metodo Julia",
+            "metodo Julia",
+            "metodo Gifford"
+          ]
+        },
+        {
+          "name": "RiddleIntent",
+          "slots": [],
+          "samples": [
+            "dime una adivinanza por favor",
+            "puedes decirme alguna adivinanza",
+            "quiero adivinanzas",
+            "te sabes alguna adivinanza",
+            "sabes alguna adivinanza",
+            "quiero una advinanza por favor",
+            "quiero un acertijo por favor",
+            "cuentame un acertijo por favor",
+            "cuentame una adivinanza por favor",
+            "cuentame una adivianza",
+            "puedes contarme una adivinanza",
+            "puedes contarme un acertijo",
+            "cuentame un acertijo",
+            "quiero un acertijo",
+            "dame un acertijo",
+            "dame una adivinanza",
+            "lanzame una adivinanza",
+            "quiero una adivinanza",
+            "cuentame una adivinanza",
+            "dime una adivinanza"
+          ]
+        },
+        {
+          "name": "TrivialIntent",
+          "slots": [],
+          "samples": [
+            "me apetece un trivial",
+            "me apetece jugar al trivial",
+            "vamos a jugar al trivial",
+            "vamos a jugar al trivial por favor",
+            "vamos a jugar por favor",
+            "quiero jugar al trivial por favor",
+            "quiero jugar por favor",
+            "vamos a jugar",
+            "quiero jugar",
+            "lanzar trivial",
+            "un trivial",
+            "quiero jugar al trivial",
+            "juguemos al trivial",
+            "jugar trivial",
+            "Jugar al trivial"
+          ]
+        },
+        {
+          "name": "AnswerTrivialIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "TrivialSlot"
+            }
+          ],
+          "samples": [
+            "la respuesta es el {answer}",
+            "el {answer}",
+            "la respuesta es {answer}",
+            "{answer}"
+          ]
+        },
+        {
+          "name": "WhatToDoIntent",
+          "slots": [],
+          "samples": [
+            "Dime ejemplos de cosas para hacer",
+            "Dime ejemplos de cosas por hacer",
+            "Que puedo pedir",
+            "Que puedo preguntar",
+            "Que cosas puedo hacer",
+            "Ejemplos de cosas para hacer",
+            "Dime que puedo hacer",
+            "Que puedo hacer"
+          ]
+        },
+        {
+          "name": "TutorialIntent",
+          "slots": [
+            {
+              "name": "method",
+              "type": "TutorialSlot"
+            }
+          ],
+          "samples": [
+            "Cual es el método {method}",
+            "Que es método {method}",
+            "Que es el método {method}",
+            "Como funciona el método {method}",
+            "Como funciona método {method}"
+          ]
+        },
+        {
+          "name": "StudyIntent",
+          "slots": [],
+          "samples": [
+            " empezar el estudio",
+            "quiero empezar el estudio",
+            "quiero empezar a estudiar",
+            "empezar a estudiar",
+            "tiempo de estudio",
+            "comenzar estudio",
+            "estudiar",
+            "Vamos a estudiar",
+            "Quiero estudiar"
+          ]
         }
       ],
-      "types": []
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Study",
+                "synonyms": [
+                  "Estudiar"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Relax",
+                "synonyms": [
+                  "Relajacion",
+                  "Relajar",
+                  "Relajación",
+                  "Relajarme",
+                  "Relajarse"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Focus",
+                "synonyms": [
+                  "Concentracion",
+                  "Concentrar",
+                  "Concentración",
+                  "Concentrarme",
+                  "Concentrarse"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Learn",
+                "synonyms": [
+                  "memorizar",
+                  "aprender"
+                ]
+              }
+            }
+          ],
+          "name": "HowToSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "General"
+              }
+            },
+            {
+              "name": {
+                "value": "Health",
+                "synonyms": [
+                  "Salud"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Law",
+                "synonyms": [
+                  "Legal"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Tech",
+                "synonyms": [
+                  "Tecnología",
+                  "Tecnologia"
+                ]
+              }
+            }
+          ],
+          "name": "StudiesSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cuatro",
+                "synonyms": [
+                  "cuarto",
+                  "4"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "tres",
+                "synonyms": [
+                  "tercero",
+                  "3"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "dos",
+                "synonyms": [
+                  "segundo",
+                  "2"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "uno",
+                "synonyms": [
+                  "primero",
+                  "1"
+                ]
+              }
+            }
+          ],
+          "name": "TrivialSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Pomodoro"
+              }
+            },
+            {
+              "name": {
+                "value": "Julia",
+                "synonyms": [
+                  "Gifford"
+                ]
+              }
+            }
+          ],
+          "name": "TutorialSlot"
+        }
+      ]
     },
     "dialog": {
       "intents": [
@@ -112,5 +579,5 @@
       }
     ]
   },
-  "version": "3"
+  "version": "23"
 }
