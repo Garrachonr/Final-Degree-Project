@@ -1,4 +1,4 @@
-# Final-Degree-Project
+# Design and development of a multilingual Alexa skill for student academic and leisure support -- Final Degree Project
 The intrusion of technology into people's daily lives has brought numerous advantages in most areas of life, but it has also brought with it some problems. One of these problems is the loss of concentration when performing a single task, mostly due to the over-stimulation that comes from being surrounded by so many electronic devices which constantly emit stimuli.
 
 This problem has a great impact on students, who, being surrounded by external stimuli, have lost a large part of their concentration and are unable to make the most of their study time. In order to solve this problem as far as possible, the "Buddy Thomas" application has been developed.
